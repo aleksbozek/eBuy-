@@ -6,7 +6,7 @@
 
 
 <br>
-
+***
 ### MVP
 
 - backend functions
@@ -18,7 +18,7 @@
 - full CRUD on users
 
 <br>
-
+***
 ### Goals
 
 - Monday/Tuesday backend
@@ -27,7 +27,7 @@
 - Friday finish?
 
 <br>
-
+***
 ### Libraries and Dependencies
 
 
@@ -39,7 +39,7 @@
 |     Ruby      | _Back End Server & localhost3000_ |
 
 <br>
-
+***
 ### Client (Front End)
 
 #### Wireframes
@@ -64,13 +64,13 @@
 ![Dummy Link](url)
 
 - Mobile Resource Index
-
+***
 #### Component Tree
 
 ![React wireframe](https://i.imgur.com/dvRfXEo.png)
 
 - Front End 
-
+***
 #### Component Hierarchy
 
 
@@ -114,7 +114,7 @@ src
     |__ ItemsForSale
 
 ```
-
+***
 #### Component Breakdown
 
 > Use this section to go into further depth regarding your components, including breaking down the components as stateless or stateful, and considering the passing of data between those components.
@@ -135,7 +135,7 @@ src
 |    Search    | functional |   y   |   y   | _State yes because this'll be a text input.  Props yes because it'll compare the text with for sale item names and/or categories._ |
 | Sort | functional |   n   |   n   | _Alphabetical and price._                 |
 |    Shared    | class |   n   |   n   | _Contains the layout.  If I hit way-post-MVP this'll then take props._ |
-
+***
 #### Time Estimates
 
 > Use this section to estimate the time necessary to build out each of the components you've described above.
@@ -149,7 +149,7 @@ src
 > _Why is this necessary? Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evaluate possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe._
 
 <br>
-
+***
 ### Server (Back End)
 
 #### ERD Model
