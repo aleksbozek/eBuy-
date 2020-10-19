@@ -6,7 +6,9 @@
 
 
 <br>
+
 ***
+
 ### MVP
 
 - backend functions
@@ -18,7 +20,9 @@
 - full CRUD on users
 
 <br>
+
 ***
+
 ### Goals
 
 - Monday/Tuesday backend
@@ -27,7 +31,9 @@
 - Friday finish?
 
 <br>
+
 ***
+
 ### Libraries and Dependencies
 
 
@@ -39,7 +45,9 @@
 |     Ruby      | _Back End Server & localhost3000_ |
 
 <br>
+
 ***
+
 ### Client (Front End)
 
 #### Wireframes
@@ -64,13 +72,17 @@
 ![Dummy Link](url)
 
 - Mobile Resource Index
+
 ***
+
 #### Component Tree
 
 ![React wireframe](https://i.imgur.com/dvRfXEo.png)
 
 - Front End 
+
 ***
+
 #### Component Hierarchy
 
 
@@ -114,7 +126,9 @@ src
     |__ ItemsForSale
 
 ```
+
 ***
+
 #### Component Breakdown
 
 > Use this section to go into further depth regarding your components, including breaking down the components as stateless or stateful, and considering the passing of data between those components.
@@ -122,34 +136,44 @@ src
 |  Component   |    Type    | state | props | Description                                                      |
 | :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
 |    Profile Edit    | functional |   y   |   y   | _State yes because it'll have editable fields.  Props yes bc it gets profile information._               |
-|  Item Edit  | functional |   y   |   y   | _State yes because the fields can be edited._       |
-|   Item Review Container    |   functional    |   y   |   y   | _The gallery will render the posts using cards in flexbox._      |
-| Item Review | functional |   y   |   y   | _The cards will render the post info via props._                 |
-|    Write Item Review    | functional |   y   |   y   | _The header will contain the navigation and logo._               |
-|    Seller Review Container    | functional |   y   |   y   | _The footer will show info about me and a link to my portfolio._ |
-|    Seller Review    | functional |   y   |   y   | _The header will contain the navigation and logo._               |
-|    Write Seller Review    | functional |   y   |   y   | _The header will contain the navigation and logo._               |
-|  Products  | class |   y   |   y   | _The navigation will provide a link to each of the pages._       |
-|   Product    |   class    |   y   |   n   | _The gallery will render the posts using cards in flexbox._      |
+|  Item Edit  | functional |   y   |   y   | _State yes because the fields can be edited. Props to initially have the item._       |
+|   Item Review Container    |   functional    |   y   |   y   | _State yes to get populated. It is a prop of an item._      |
+| Item Review | functional |   y   |   y   | _State yes for editing.  Props to append to corresponding item._                 |
+|    Write Item Review    | functional |   y   |   y   | _State for input fields.  Props to associate with item id._               |
+|    Seller Review Container    | functional |   y   |   y   | _useState to be populated.  It is a prop of a user._ |
+|    Seller Review    | functional |   y   |   y   | _State for editing.  Props bc it is to be displayed on a user's profile page._               |
+|    Write Seller Review    | functional |   y   |   y   | _useState for filling out text fields.  Props to be associated with a user's id._               |
+|  Products  | class |   y   |   y   | _State to get populated.  It gets passed props from App.js in the api call.  Will be utilized on category pages via flexbox._       |
+|   Product    |   class    |   n   |   y   | _It will be passed information from products via .map ._      |
 | Login | functional |   y   |   y   | _State yes because some site functionality will not be accessible to anons.  Props yes because it needs to compare the input with the database._                 |
 |    Search    | functional |   y   |   y   | _State yes because this'll be a text input.  Props yes because it'll compare the text with for sale item names and/or categories._ |
-| Sort | functional |   n   |   n   | _Alphabetical and price._                 |
+| Sort | functional |   n   |   y   | _Alphabetical and price.  Props are handleChange, handleSubmit & option values._                 |
 |    Shared    | class |   n   |   n   | _Contains the layout.  If I hit way-post-MVP this'll then take props._ |
+
 ***
+
 #### Time Estimates
 
-> Use this section to estimate the time necessary to build out each of the components you've described above.
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| TOTAL               |          |     6 hrs      |     3 hrs     |     TBD     |
+| Back End    |    H     |     5 hrs      |     0 hrs     |    TBD    |
+| React Skeleton |    M     |     7 hrs      |     0 hrs     |     TBD     |
+| Component Functionality |    H     |     10 hrs      |     0 hrs     |     TBD     |
+| Routes |    M     |     2 hrs      |     0 hrs     |     TBD     |
+| Screens |    M     |     5 hrs      |     0 hrs     |     TBD     |
+| Item Reviews |    L     |     3 hrs      |     0 hrs     |     TBD     |
+| User Reviews |    L     |     1 hrs      |     0 hrs     |     TBD     |
+| CSS |    L     |     5 hrs      |     0 hrs     |     TBD     |
+| Debugging |    H     |     10 hrs      |     0 hrs     |     TBD     |
+| TOTAL               |          |     48 hrs      |     0 hrs     |     TBD     |
 
-> _Why is this necessary? Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evaluate possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe._
+
 
 <br>
+
 ***
+
 ### Server (Back End)
 
 #### ERD Model
