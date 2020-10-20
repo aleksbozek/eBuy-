@@ -17,7 +17,7 @@
 - anonymous reviews not allowed
 - search utilizing three different criteria: item name, category, or both
 - full CRUD on items
-- full CRUD on users
+
 
 <br>
 
@@ -193,6 +193,8 @@ src
 - create categories
 - have products photo be an array & allow the user to have multiple photos.  This'll be limited to seven links per item.  Each link will need a minimum of 10 characters before the add additional photo actually works (to disuade spam).
 - sales option where items can be auctioned with increasing bids
+- user reviews
+- item reviews
 
 ***
 
