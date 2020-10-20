@@ -57,21 +57,10 @@
 
 
 
-![Dummy Link](url)
+![wireframe](https://i.imgur.com/XkSDdER.png)
 
-- Resource Index
+- Mobile version
 
-![Dummy Link](url)
-
-- Resource Show
-
-![Dummy Link](url)
-
-- Tablet Resource Index
-
-![Dummy Link](url)
-
-- Mobile Resource Index
 
 ***
 
